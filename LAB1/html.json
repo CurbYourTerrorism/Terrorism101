@@ -1,0 +1,24 @@
+{
+    "HTML Snippet Name": {
+    "prefix": "htmlsnippet",
+    "body": [
+        "<!DOCTYPE html>",
+        "<html lang=\"lt\">",
+        "  <head>",
+        "    <meta charset=\"UTF-8\">",
+        "    <meta name=\"snippet\" content=\"Aivaras Petkus EF-22/2\">",
+        "    <link rel=\"stylesheet\" type=\"text/css\" href=\"stilius.css\">",
+        "    <title>Document</title>",
+        "  </head>",
+        "  <body>",
+        "    <h1>Bruh???</h1>",
+        "    <p>I love <b>speed and power</b>...</p>",
+        "    <p>U love <i>supercars</i>...</p>",
+        "    <p>We are <u>not the same</u>.</p>",
+        "    <object data=\"snippetlab7.html\"></object>",
+        "  </body>",
+        "</html>"
+    ],
+    "description": "Your HTML snippet description"
+}
+}
