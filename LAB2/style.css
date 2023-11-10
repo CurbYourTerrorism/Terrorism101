@@ -1,0 +1,38 @@
+footer{
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    opacity: 1;
+  background-color: rgba(0,0,0,0.6);
+}
+header{
+    text-align: center;
+}
+#section1{
+width: 100%;
+background-color: white;
+}
+.collumn{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+html{
+    background-image: url(photo/GIFbackground.gif);
+    color: white;
+}
+a{
+    color: blue;
+}
+ol{
+    text-align: center;
+}
