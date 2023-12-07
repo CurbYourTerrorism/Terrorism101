@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 auto;
+}
+nav{
+    display: flex;
+    align-content: space-evenly;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 2;
+}
+nav > ul{
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
+    width: 90px;
+}
+nav > ul > a{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif;
+}
+.intro{
+    background: url(photo/2472514.webp) top right ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+}
+.h1intro{
+    font-family: 'Satisfy', serif;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+    padding-top: 143px;
+}
+.h2intro{
+    font-family: 'Raleway',sans-serif;
+    font-size: 13px;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+header{
+    text-align: center;
+}
+.home{
+    text-align: center;
+    height: 500px;
+    padding: 0px 0px 0px 0px;
+}
+.about{
+    text-align: center;
+    background-color: white;
+    height: 1200px;
+
+} 
+.about > h1{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    color: black;
+}
+.about > p{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.about-img{
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+
+}
+.about-me{
+    margin: 16px 20px 20px 20px;
+    height: 100px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+} 
+.about-me > li{
+    text-align: left;
+    margin: 0px 0px 16px 0px;
+    position: relative;
+    padding-left: 20px;
+}
+.about-me > li > strong{
+    margin: 0px 10px 0px 0px;
+    font-size: 16px;
+}
+.about-me > li > span{
+    font-size: 16px;
+}
+.about-me li::before {
+    content: '\203A';
+    position: absolute;
+    left: 0;
+}
+.smile {
+    font-size: 36px;
+    margin-right: 0;
+  }
+.numbers{
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+.numbers-img{
+    width: 36px;
+    height: 36px;
+    margin: 5px 0px 0px 10px;
+}
+.numbers > p{
+    margin: 0px 0px 0px 50px;
+    padding: 15px 0px 0px;
+}
+.row{
+    display: flex;
+    align-content: space-evenly;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.col{
+ align-items: center;
+}
+.col2{
+    align-items: left;
+}
+.content-about{
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.resume{
+    text-align: center;
+    height: 2000px;
+}
+.resume >h1{
+    margin: 0;
+    padding: 0;
+}
+.resume-title{
+    font:  26px;
+    margin: 10px 10px;
+    text-align: left;
+}
+.resume-box{
+    text-align: left;
+    margin: 10px 10px;
+    border-left: 5px solid #333; 
+    padding-left: 20px; 
+    line-height: 1.5; 
+}
+.resume-box > h5{
+    margin: 0px 0px 10px;
+    padding: 5px 15px;
+    font: 16px;
+ 
+}
+.contact{
+    text-align: center;
+    height: 1200px;
+}
+.contact-title{
+    font:  26px;
+    margin: 0;
+    text-align: center;
+    padding: 30px 0px;
+}
+.contact-title > h2{
+    margin: 0px 0px 15px;
+}
+.contact-title > p{
+    margin: 0;
+    padding: 0;
+}
+.contact > h1{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    color: lightgreen;
+}
+.info-box{
+    font: 16px;
+    padding: 20px 0px 30px;
+    margin: 10px 10px;
+    background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 350px;
+}
+.info-box > h3{
+    font: 16px;
+    margin: 10px 0px;
+}
+.socila-links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.socila-links > a{
+    font-size: 18px;
+    display: inline-block;
+    color: #687683;
+    line-height: 1;
+    margin: 0 8px;
+    transition: 0.3s;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #dde1e4;
+}
+.contact .socila-links a:hover {
+    color: #fff;
+    border-color: #ffb727;
+    background: #ffb727;
+}
+.email-form{
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 27px;
+}
+.email-form > textarea{
+    padding: 12px 15px;
+    border-radius: 0;
+    box-shadow: none;
+    height: 152px;
+    font-size: 14px;
+    width: 450px;
+}
+#name {
+    height: 43px;
+   width: 450px;
+   padding: 10px 15px;
+  
+    font-size: 14px;
+}
+#email {
+    height: 43px;
+   width: 450px;
+   padding: 10px 15px;
+margin: 10px 0px;
+    font-size: 14px;
+}
+#subject {
+    height: 43px;
+   width: 450px;
+   padding: 10px 15px;
+
+    font-size: 14px;
+}
+.form-ctrl{
+    padding: 12px 15px;
+    margin: 10px 0px;
+    height: 152px;
+    font-size: 14px;
+    width: 450px;
+}
+.text-center{
+    text-align: center;
+}
+.text-center > button{
+    border-radius: 5px;
+    color: white;
+    background-color: #ffb727;
+    height: 44px;
+    width: 155px;
+    border: #ffb727;
+}
+footer{
+    text-align: center;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    height: 420px;
+}
+footer> .container > h3{
+    font-family: 'Satisfy', serif;
+    font-size: 36px;
+    margin: 0px 0px 15px; 
+}
+footer> .container > p{
+    margin: 0px 0px 40px; 
+}
+@media print {
+    body {
+        font-family: serif; /* Nustatyti serifinį šriftą spausdinimui */
+    }
+    section{
+        page-break-after: auto;
+    }
+    img {
+        display: block; /* Užtikrinti, kad paveikslai būtų rodomi kaip bloko elementai */
+        max-width: 100%; /* Padaryti paveikslus atsakomus spausdinimo puslapiui */
+        margin: 1em 0; /* Pridėti tarpą tarp paveikslų ir pastraipų */
+    }
+    .contacts-container {
+        page-break-inside:avoid;
+        margin: 1em 0; /* Pridėti tarpą tarp lentelės ir pastraipų */
+    }
+    .print-link {
+        display: none; /* Hide the print link on the printed page */
+    }
+    #navbar{
+        display: none;
+    }
+}
