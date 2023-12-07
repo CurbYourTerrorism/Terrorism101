@@ -253,7 +253,7 @@ header{
   }
 
   /* Media query keičianti dydį didinant ekrano plotį */
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 601px) {
     #name {
         width: 450px;
      }
