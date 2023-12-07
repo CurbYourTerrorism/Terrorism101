@@ -237,23 +237,53 @@ header{
     font-size: 14px;
     width: 450px;
 }
+@media screen and (max-width: 600px) {
+    #name {
+       width: 300px;
+    }
+    #email {
+        width: 300px;
+    }
+    #subject {
+        width: 300px;
+    }
+    .form-ctrl{
+        width: 300px;
+     }
+  }
+
+  /* Media query keičianti dydį didinant ekrano plotį */
+  @media screen and (min-width: 1200px) {
+    #name {
+        width: 450px;
+     }
+     #email {
+         width: 450px;
+     }
+     #subject {
+         width: 450px;
+     }
+     .form-ctrl{
+        width: 450px;
+     }
+  }
 #name {
     height: 43px;
-   width: 450px;
+ 
+
    padding: 10px 15px;
-  
     font-size: 14px;
 }
 #email {
     height: 43px;
-   width: 450px;
+  
    padding: 10px 15px;
 margin: 10px 0px;
     font-size: 14px;
 }
 #subject {
     height: 43px;
-   width: 450px;
+   
    padding: 10px 15px;
 
     font-size: 14px;
@@ -263,7 +293,7 @@ margin: 10px 0px;
     margin: 10px 0px;
     height: 152px;
     font-size: 14px;
-    width: 450px;
+
 }
 .text-center{
     text-align: center;
