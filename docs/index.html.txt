@@ -65,7 +65,7 @@
                 </li>
                 <li>
                     <strong>Degree:</strong>
-                    <span>terminal moron</span>
+                    <span>not yet graded</span>
                 </li>
                 <li>
                     <strong>Email:</strong>
