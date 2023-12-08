@@ -2,12 +2,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>MathML and SVG</title>
+
+    <script type="text/javascript" async
+
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+
+        </script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="progbar.css">
     <title>Skriptinio lab</title>
     <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 </head>
 <body>
 <div class="container">
@@ -248,6 +256,61 @@
 
 </form>
 <p class="print-link"><a href="#" onclick="window.print();">Spausdinti...</a></p>
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+       <mrow>
+          <msup> <mi>a</mi> <mn>2</mn> </msup> <mo>=</mo>
+       </mrow>
+       <mrow>
+        <msup> <mi>b</mi> <mn>2</mn> </msup> <mo>+</mo> <msup> <mi>c</mi> <mn>2</mn> </msup>
+     </mrow>
+    </mrow>
+ </math>
+
+ <br>
+<math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow>
+           <mi>Z</mi> <mo maxsize = "100%"> ( </mo> <mi>v</mi><mo maxsize = "100%"> ) </mo>  <mo>=</mo>
+        </mrow>
+        <mrow>
+            <mfrac>
+                <mn>1</mn> <msqrt> <mi>π</mi></msqrt> 
+            </mfrac>
+            <msubsup>
+                <mo> ∫</mo>
+                <mn> -∞ </mn>
+                <mn> ∞ </mn>
+            </msubsup>
+            <mfrac>
+                <mrow>
+                    <msup><mi> e </mi> <mi> <msup><mi> -t </mi> <mn>2 </mn></msup></mi></msup>
+                   
+                   <mi>d </mi>
+                   <mi> t </mi>
+                </mrow>
+                
+                <mrow>
+                   <mi> t </mi>
+                   <mo> - </mo>
+                   <mi> i </mi>
+                   <mi> v </mi>
+                </mrow>
+             </mfrac>
+             <mo>=</mo>
+        </mrow>
+        <mrow>
+            <mi>i</mi> 
+            <msubsup>
+                <mo> ∫</mo>
+                <mn> 0 </mn>
+                <mn> ∞ </mn>
+            </msubsup>
+            <msup><mi> e </mi> <mrow> <mi> -vt </mi><mo>-</mo> <mfrac> <msup> <mi>t</mi> <mn>2</mn></msup> <mn>4</mn></mfrac></mrow> </msup>
+            <mi>dt</mi>
+        </mrow>
+    </mrow>
+ </math>
 </div>
     </div>
 </section> 
